@@ -1,3 +1,16 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+		
+		font-family:Poppins,  sans-serif;
+		padding: 10px 10px 0;
+		
+		
+	}
+
 
 /*definimos la distribución de filas, columnas, nombre de las áreas */
 .basic {
@@ -25,8 +38,8 @@
 
 .basic  .footer {
     grid-area: footer;
-    background: #e6e6ec;;
-	text-align: center;
+    background: #9a9aa0;;
+	 text-align: center;
     color: #131314;
    
 }
@@ -38,79 +51,6 @@
 
 
 /*general definimos los estilos*/
-
-
-
-*{
-	margin: 0;
-	box-sizing: border-box;
-}
-
-body {
-		
-		font-family:Poppins,  sans-serif;
-		padding: 10px 10px 0;
-		
-		
-	}
-	
-
-
-
-
-
-@media (min-width: 768px) and (max-width: 1199px){
-
-body {
-		
-		
-		padding-top: 60px 10px 0;
-		
-		
-	}
-
-
-.basic .container .h2 {
-	margin-top: 2rem;
-}
-
-.main .container-fluid .contact_form  {
-	/*width: 100%;*/
-	
-	 padding: 20px;
-     background: #67cdcb;
-	 border: solid 2px #dddddd;
-	 border-collapse: collapse;
-	 border-spacing: 10px;
-	 display: flex;
-	 justify-content: center;
-	 /* flex-direction: row;*/
-	 align-items: center;
-	 flex-wrap: wrap;
-	 line-height: 30px;
-	 
-	 
-}
-
-
-.basic .footer {
-	grid-area: footer;
-   display: flex;
-	background: #b7b7bd;;
-	text-align: center;
-	position: static;
-	bottom: 0;
-	color: #131314;
-   
-}
-
-.basic .footer div{
-	margin: 0 auto;
-	padding-top: 10px;
-}
- 
-
-}
 
 @media (max-width: 768px){
 
@@ -169,24 +109,66 @@ body {
 	
 }
 
+@media (min-width: 768px) and (max-width: 1199px){
+
+body {
+		
+		
+		padding-top: 60px 10px 0;
+		
+		
+	}
+
+
+.basic .container .h2 {
+	margin-top: 2rem;
+}
+
+.main .container-fluid .contact_form  {
+	/*width: 100%;*/
+	
+	 padding: 20px;
+     background: #67cdcb;
+	 border: solid 2px #dddddd;
+	 border-collapse: collapse;
+	 border-spacing: 10px;
+	 display: flex;
+	 justify-content: center;
+	 /* flex-direction: row;*/
+	 align-items: center;
+	 flex-wrap: wrap;
+	 line-height: 30px;
+	 
+	 
+}
+
+
+.basic .footer {
+	grid-area: footer;
+  display: flex;
+	background: #b7b7bd;;
+	text-align: center;
+	position: static;
+	bottom: 0;
+	color: #131314;
+   
+}
+
+.basic .footer div{
+	margin: 0 auto;
+	padding-top: 10px;
+}
+ 
+
+}
+
+
+
 
 /*definimos los estilos desktop*/
 @media (min-width: 1200px) {
 
-	.basic {
-        display: grid;
-		grid-template-rows: 4rem minmax(calc(100vh - 4rem - 200px), max-content) 100px;
-        grid-template-columns:  1fr 4fr minmax(10%, 1fr);
-        grid-template-areas:
-		"header header header header"
-        "main main  main .    "
-        "footer footer footer footer";
-    }
 	
-
-	/*.basic .container .h2 {
-		margin-top: 2rem;
-	}*/
 	
 	
 	
@@ -249,6 +231,57 @@ padding: 10px;
 	  
 
 
+}
+
+/*PAGINA JUEGOS*/
+.educaplay {
+    
+  color: rgb(42, 17, 207);
+  
+}
+.kahoot {
+  
+  color: rgb(42, 17, 207);
+  
+}
+/*PRUEBA FLEX*/
+.juegosdos  {
+  /*width: 100%;*/
+  border: solid 2px #dddddd;
+    border-radius: 5px;
+     border-spacing: 10px;
+  display:flex;
+  background-color: antiquewhite;
+  padding:4px;
+  /*box-sizing: border-box;*/
+  /*justify-content: center;
+  align-items: center;*/
+  /*flex-wrap: wrap;*/
+
+}
+.juegosdos .edit {
+    /*border: solid 2px #dddddd;
+    border-radius: 5px;*/
+     border-spacing: 10px;
+     /*background: rgb(30, 217, 227);*/
+  display:flex;
+  padding:4px;
+  box-sizing: border-box;
+  max-width: 25%;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+ .editdos { 
+    border-spacing: 10px;
+   display:flex;
+  padding-left: 10px;
+  flex-direction: column;
+  
+}
+.edit img {
+  width: 100%;
 }
 
 /*PAGINA DE EDICION-seccion cards*/
@@ -366,80 +399,5 @@ font-size: 16px;
   
 }
 
-/*PAGINA JUEGOS*/
-.educaplay {
-    
-    color: rgb(42, 17, 207);
-    
-  }
-  .kahoot {
-    
-    color: rgb(42, 17, 207);
-    
-  }
-  /*PRUEBA FLEX*/
-  .juegosdos  {
-    /*width: 100%;*/
-    border: solid 2px #dddddd;
-      border-radius: 5px;
-       border-spacing: 10px;
-    display:flex;
-    background-color: antiquewhite;
-    padding:4px;
-    /*box-sizing: border-box;*/
-    /*justify-content: center;
-    align-items: center;*/
-    /*flex-wrap: wrap;*/
 
-  }
-  .juegosdos .edit {
-      /*border: solid 2px #dddddd;
-      border-radius: 5px;*/
-       border-spacing: 10px;
-       /*background: rgb(30, 217, 227);*/
-    display:flex;
-    padding:4px;
-    box-sizing: border-box;
-    max-width: 25%;
-    flex-direction: row;
-    align-items: center;
-    
-  }
 
-   .editdos { 
-      border-spacing: 10px;
-     display:flex;
-    padding-left: 10px;
-    flex-direction: column;
-    
-  }
-  .edit img {
-    width: 100%;
-}
-/*------------------------------*/
-/*PAGINA DE RECURSOS*/
-
-.container  .portada {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    background-image: url(../img/ruedas.jpg);
-    background-size: cover;
-    position: relative;
-    
-
-  }
- .container .portada .texto-inicial {
-    background: rgb(216, 211, 56);
-    width: 40vw;
-    padding: 20px;
-    border-radius: 10px;
-    position: absolute;
-    top: 30%;
-    left: calc(50% - 20vw);
-
-  }
-  .container .portada .texto-inicial * {
-    text-align: center;
-    margin: 0;
-  }
