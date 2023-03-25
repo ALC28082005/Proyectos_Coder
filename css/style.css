@@ -168,11 +168,7 @@ body {
 /*definimos los estilos desktop*/
 @media (min-width: 1200px) {
 
-	
-	
-	
-	
-    .basic .footer {
+	    .basic .footer {
         grid-area: footer;
        display: flex;
         background: #b7b7bd;;
@@ -401,7 +397,8 @@ font-size: 16px;
 
 
 
-@charset "UTF-8";
+/*@charset "UTF-8";*/
+
 /*globales*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Roboto:wght@300&display=swap");
 * {
