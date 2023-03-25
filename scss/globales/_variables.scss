@@ -1,0 +1,20 @@
+
+//mapa de colores
+$colors:(primary:#4a4e69,primary-light:lighten(#4056e8e3,40%),primary-dark:darken(#4a4e69,10%),text-dark:darken(#eb113d,40%),text-light:lighten(#4a4e69,60%));
+
+//breakpoints
+$desktop:992px;
+
+//medidas varias
+$padding: 15px;
+$radius: 15px;
+
+//sombreado
+$shadow:0 10px 30px rgba(64, 18, 215, 0.4);
+
+$estilos: (
+  color: #5cc8e9,
+  centro: center,
+  tFuente: 35px,
+  1rem : 1rem
+);

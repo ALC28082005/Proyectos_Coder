@@ -1,0 +1,18 @@
+/*globales*/
+@import "./globales/normalize";
+@import "./globales/reset";
+@import "./globales/variables";
+@import "./globales/tipografias";
+
+/*layout*/
+@import "./layout/nav";
+@import "./layout/grid";
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
+
+/*Views*/
+@import "./views/recursos";
+@import "./views/edicion";
+@import "./views/juegos";
+@import "./views/contacto";

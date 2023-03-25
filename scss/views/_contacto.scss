@@ -1,0 +1,47 @@
+ /*CONTACTO*/
+
+  
+ .contact_form  {
+           
+    border-collapse: collapse;
+    border-spacing: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 30px;
+    div{
+        padding: 10px;
+        background: rgb(85, 240, 240);
+        border-radius: 5px;
+       border-spacing: 10px;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+
+       input {
+        font-size: 16px;
+    }
+   
+    
+ }
+}
+ 
+  .enviar {
+ 
+  flex-direction: column;
+  /*flex-wrap: wrap;*/
+   padding: 10px;
+   :hover{
+    background: rgb(117, 156, 224);
+           } 
+   
+   input {
+    background-color: #b9bdc1;
+    margin-top: 10px;
+    
+    
+  }
+   
+ }
+ 

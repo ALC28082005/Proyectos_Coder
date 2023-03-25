@@ -1,0 +1,12 @@
+/*definimos la distribución de filas, columnas, nombre de las áreas */
+.basic {
+    display: grid;
+    box-sizing: border-box;
+	  grid-template-rows: 4rem minmax(calc(100vh - 4rem - 200px), max-content) 100px;
+	  grid-template-columns:  1fr 4fr;
+	  grid-template-areas:
+        "header header header header"
+        "main  main  main .    "
+        "footer footer footer footer";
+       
+}
