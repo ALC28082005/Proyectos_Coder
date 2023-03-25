@@ -1,4 +1,4 @@
-@import "../globales/colores";
+@import '../globales/variables';
 
  .prueba {
   background-color: map-get($estilos, color);
@@ -8,12 +8,8 @@
 }
 
 
-
-.prueba2{
-  background-color: map-get($estilos, color);
-  text-align: map-get($estilos, centro);
-  padding: map-get($estilos, 1rem);
-  font-size:map-get($estilos, tFuente);
-    
+.prueba2 h1{
+    color:$color-blue;
 }
+
 
