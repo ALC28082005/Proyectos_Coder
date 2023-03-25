@@ -1,20 +1,19 @@
 
 
 
- .prueba {
+ .estilos {
   background-color: map-get($estilos, color);
   text-align: map-get($estilos, centro);
   padding: map-get($estilos, 1rem);
   font-size:map-get($estilos, tFuente);
 }
 
-@import '../globales/mixin';
-@import '../globales/colores';
 
-.cards2 {
+
+.cards {
     justify-content: center;
 
-    .card2{
+    .card{
         width: 100%;
         max-width: 30rem;
         margin: 20px;
@@ -25,17 +24,17 @@
         transition: all 400ms ease-out;
         cursor: default;
 
-        &:hover {
+        .card:hover {
             box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
             transform: translateY(-3%);
         }
 
-        &__img img{
+        .card__img img{
             width: 100%;
             height: 21rem;
         }
 
-        &__content {
+        .card__content {
             padding: 15px;
             text-align: center;
 
