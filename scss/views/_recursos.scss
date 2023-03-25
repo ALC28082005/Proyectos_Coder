@@ -1,4 +1,5 @@
-@import "../globales/colores";
+
+@import "colors";
 
  .prueba {
   background-color: map-get($estilos, color);
@@ -8,8 +9,15 @@
 }
 
 
-.prueba2 h1{
-    color: blue;
+.basic{
+    .main{
+        .container{
+            .prueba2{
+                color: aqua;
+            }
+        }
+
+    }
 }
 
 
