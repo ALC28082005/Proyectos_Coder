@@ -1,5 +1,6 @@
 
-@import "colors";
+@import 'variables';
+@import 'mixins';
 
  .prueba {
   background-color: map-get($estilos, color);
@@ -9,16 +10,42 @@
 }
 
 
-.basic{
-    .main{
-        .container{
-            .prueba2{
-                color: aqua;
-                text-align: center;
+
+section.card {
+    grid-area: card;
+    background-color: map-get($colors,primary-light);
+    margin: 1em auto;
+    padding: $padding;
+    border-radius: $radius;
+    box-shadow: $shadow;
+    width: 80%;
+
+
+    @include desktop {
+        align-self: flex-end;
+        margin: 1em;
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            margin-bottom: 10px;
+
+            .circulo {
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                background-color: map-get($colors,primary-dark);
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+
+            strong {
+                display: inline-block;
+                margin-left: max(40px);
             }
         }
-
     }
 }
-
 
