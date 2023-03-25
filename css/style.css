@@ -17,6 +17,20 @@ body {
   body {
     padding-top: 60px 10px 0; } }
 
+/*Prueba de mixin*/
+.cuadrado-1 {
+  background-color: #ac7fff;
+  margin-top: 5px;
+  width: auto;
+  height: auto; }
+  .cuadrado-1 p {
+    text-align: center; }
+
+/*----------------------*/
+.mix-1 {
+  background-color: antiquewhite;
+  margin-top: 0; }
+
 /* PALETA DE COLORES PARA CARDS2 */
 /*-----Estilos titulos boostrap----*/
 .h1 {
@@ -93,51 +107,6 @@ body {
 
 /* UTILITIES */
 /*Views*/
-.cards {
-  min-height: calc(100vh - 60px);
-  /* background: rgb(12, 167, 167);*/
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 10px;
-  box-sizing: border-box; }
-  .cards .card {
-    background: white;
-    max-width: 20%;
-    min-width: 150px;
-    padding: 10px;
-    margin: 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
-    .cards .card .card-body img {
-      width: 99%;
-      height: 35vh;
-      /*hack imagen no deformada*/
-      object-fit: cover; }
-    .cards .card .card-body h3 {
-      color: #0f1010;
-      text-align: center; }
-    .cards .card .card-body p {
-      text-align: left; }
-    .cards .card .card-action {
-      display: flex;
-      justify-content: flex-end; }
-      .cards .card .card-action button {
-        background: none;
-        text-transform: uppercase;
-        padding: 5px 10px;
-        border: none;
-        color: darkorange;
-        font-weight: bold;
-        border-radius: 3px;
-        cursor: pointer; }
-        .cards .card .card-action button a {
-          color: darkorange;
-          text-decoration: none; }
-        .cards .card .card-action button :hover {
-          background: rgba(255, 140, 0, 0.05); }
-
 /*PAGINA DE EDICION-seccion cards*/
 .cards {
   min-height: calc(100vh - 60px);

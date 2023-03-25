@@ -1,1 +1,263 @@
+@charset "UTF-8";
+/*globales*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  padding: 10px 10px 0;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 40px 10px 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  body {
+    padding-top: 60px 10px 0;
+  }
+}
+/*Prueba de mixin*/
+.cuadrado-1 {
+  background-color: rgb(172, 127, 255);
+  margin-top: 5px;
+  width: auto;
+  height: auto;
+}
+.cuadrado-1 p {
+  text-align: center;
+}
+
+/*----------------------*/
+.mix-1 {
+  background-color: antiquewhite;
+  margin-top: 0;
+}
+
+/* PALETA DE COLORES PARA CARDS2 */
+/*-----Estilos titulos boostrap----*/
+.h1 {
+  text-align: center;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.h4 {
+  text-align: center;
+}
+
+.h6 {
+  text-align: center;
+}
+
+.text-bg-primary {
+  text-align: center;
+}
+
+.shadow-lg {
+  text-align: center;
+}
+
+.web {
+  text-align: center;
+}
+
+/*layout*/
+/*definimos la distribución de filas, columnas, nombre de las áreas */
+.basic {
+  display: grid;
+  box-sizing: border-box;
+  grid-template-rows: 4rem minmax(calc(100vh - 4rem - 200px), max-content) 100px;
+  grid-template-columns: 1fr 4fr;
+  grid-template-areas: "header header header header" "main  main  main .    " "footer footer footer footer";
+}
+
+.basic .header {
+  grid-area: header;
+  display: flex;
+}
+
+.basic .main {
+  grid-area: main;
+  display: flex;
+}
+
+.footer {
+  grid-area: footer;
+  background: #ceced6;
+  text-align: center;
+  color: #131314;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    display: flex;
+    position: static;
+    bottom: 0;
+  }
+  .footer div {
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .footer {
+    display: flex;
+    position: static;
+    bottom: 0;
+  }
+  .footer div {
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+}
+/*definimos los estilos desktop*/
+@media (min-width: 1200px) {
+  .footer {
+    display: flex;
+    position: static;
+    bottom: 0;
+  }
+  .footer div {
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+}
+/* UTILITIES */
+/*Views*/
+/*PAGINA DE EDICION-seccion cards*/
+.cards {
+  min-height: calc(100vh - 60px);
+  /* background: rgb(12, 167, 167);*/
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.cards .card {
+  background: white;
+  max-width: 20%;
+  min-width: 150px;
+  padding: 10px;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cards .card .card-body img {
+  width: 99%;
+  height: 35vh;
+  /*hack imagen no deformada*/
+  object-fit: cover;
+}
+.cards .card .card-body h3 {
+  color: rgb(15, 16, 16);
+  text-align: center;
+}
+.cards .card .card-body p {
+  text-align: left;
+}
+.cards .card .card-action {
+  display: flex;
+  justify-content: flex-end;
+}
+.cards .card .card-action button {
+  background: none;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border: none;
+  color: darkorange;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.cards .card .card-action button a {
+  color: darkorange;
+  text-decoration: none;
+}
+.cards .card .card-action button :hover {
+  background: rgba(255, 140, 0, 0.05);
+}
+
+/*PAGINA JUEGOS*/
+.educaplay {
+  color: rgb(42, 17, 207);
+}
+
+.kahoot {
+  color: rgb(42, 17, 207);
+}
+
+/*PRUEBA FLEX*/
+.juegosdos {
+  border: solid 2px #dddddd;
+  border-radius: 5px;
+  border-spacing: 10px;
+  display: flex;
+  background-color: antiquewhite;
+  padding: 4px;
+}
+.juegosdos .edit {
+  border-spacing: 10px;
+  display: flex;
+  padding: 4px;
+  box-sizing: border-box;
+  max-width: 25%;
+  flex-direction: row;
+  align-items: center;
+}
+.juegosdos .edit img {
+  width: 100%;
+}
+.juegosdos .editdos {
+  border-spacing: 10px;
+  display: flex;
+  padding-left: 10px;
+  flex-direction: column;
+}
+
+/*CONTACTO*/
+.contact_form {
+  border-collapse: collapse;
+  border-spacing: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  line-height: 30px;
+}
+.contact_form div {
+  padding: 10px;
+  background: rgb(120, 140, 230);
+  border-radius: 5px;
+  border-spacing: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact_form div input {
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.enviar {
+  flex-direction: column;
+  /*flex-wrap: wrap;*/
+  padding: 10px;
+}
+.enviar :hover {
+  background: rgb(117, 156, 224);
+}
+.enviar input {
+  background-color: #b9bdc1;
+  margin-top: 10px;
+}
+
 /*# sourceMappingURL=styles.css.map */
