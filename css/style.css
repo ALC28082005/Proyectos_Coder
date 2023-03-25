@@ -92,12 +92,6 @@ body {
     padding-top: 10px; } }
 
 /*Views*/
-.prueba {
-  background-color: #51d493;
-  text-align: center;
-  padding: 1rem;
-  font-size: 35px; }
-
 /*PAGINA DE EDICION-seccion cards*/
 .cards {
   min-height: calc(100vh - 60px);
