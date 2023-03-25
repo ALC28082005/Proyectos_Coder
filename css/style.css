@@ -188,7 +188,7 @@ body {
     flex-direction: column; }
     .contact_form div input {
       font-size: 16px;
-      border-radius: 3px; }
+      border-radius: 5px; }
 
 .enviar {
   flex-direction: column;
