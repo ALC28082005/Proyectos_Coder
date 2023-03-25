@@ -11,9 +11,9 @@
 
 
 
-section.card {
+.card2 {
     grid-area: card;
-    background-color: map-get($colors,primary-light);
+    background-color: map-get($colors,primary);
     margin: 1em auto;
     padding: $padding;
     border-radius: $radius;
