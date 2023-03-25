@@ -1,8 +1,25 @@
-
-
-@mixin desktop {
-    @media(min-width:#{$desktop}) {
-        @content;
+/*Prueba de mixin*/
+@mixin cuadrado{
+    background-color: rgb(172, 127, 255);
+    margin-top: 5px;
+    width:auto;
+    height: auto;
+    p{
+        text-align: center,
     }
+    
+
+}
+.cuadrado-1{
+   @include cuadrado;
+
 }
 
+/*----------------------*/
+@mixin mix{
+    background-color: antiquewhite;
+    margin-top: 0;
+}
+.mix-1{
+    @include mix;
+}
