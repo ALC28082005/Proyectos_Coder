@@ -46,7 +46,9 @@ body {
   box-sizing: border-box;
   grid-template-rows: 4rem minmax(calc(100vh - 4rem - 200px), max-content) 100px;
   grid-template-columns: 1fr 4fr;
-  grid-template-areas: "header header header header" "main  main  main .    " "footer footer footer footer"; }
+  grid-template-areas: "header header header header"
+ "main  main  main .    "
+ "footer footer footer footer"; }
 
 .basic .header {
   grid-area: header;
@@ -91,6 +93,12 @@ body {
     padding-top: 10px; } }
 
 /*Views*/
+.prueba {
+  background-color: #d88531;
+  text-align: center;
+  padding: 1rem;
+  font-size: 35px; }
+
 /*PAGINA DE EDICION-seccion cards*/
 .cards {
   min-height: calc(100vh - 60px);
@@ -136,6 +144,37 @@ body {
           text-decoration: none; }
         .cards .card .card-action button :hover {
           background: rgba(255, 140, 0, 0.05); }
+
+/*PAGINA JUEGOS*/
+.educaplay {
+  color: #2a11cf; }
+
+.kahoot {
+  color: #2a11cf; }
+
+/*PRUEBA FLEX*/
+.juegosdos {
+  border: solid 2px #dddddd;
+  border-radius: 5px;
+  border-spacing: 10px;
+  display: flex;
+  background-color: antiquewhite;
+  padding: 4px; }
+  .juegosdos .edit {
+    border-spacing: 10px;
+    display: flex;
+    padding: 4px;
+    box-sizing: border-box;
+    max-width: 25%;
+    flex-direction: row;
+    align-items: center; }
+    .juegosdos .edit img {
+      width: 100%; }
+  .juegosdos .editdos {
+    border-spacing: 10px;
+    display: flex;
+    padding-left: 10px;
+    flex-direction: column; }
 
 /*CONTACTO*/
 .contact_form {
