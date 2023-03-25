@@ -12,6 +12,9 @@
 @import 'layout/main';
 @import 'layout/footer';
 
+/* UTILITIES */
+@import 'utilities/mixins';
+
 /*Views*/
 @import 'views/recursos';
 @import 'views/edicion';
