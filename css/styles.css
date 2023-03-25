@@ -85,9 +85,10 @@ body {
   grid-template-areas: "header header header header" "main  main  main .    " "footer footer footer footer";
 }
 
-.basic .header {
+.header {
   grid-area: header;
   display: flex;
+  text-align: center;
 }
 
 .basic .main {
