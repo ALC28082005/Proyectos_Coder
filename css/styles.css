@@ -34,7 +34,12 @@ body {
 
 /*----------------------*/
 .mix-1 {
-  background-color: antiquewhite;
+  background-color: #4cb04c;
+  margin-top: 0;
+}
+
+.mix-2 {
+  background-color: #f1edb9;
   margin-top: 0;
 }
 
