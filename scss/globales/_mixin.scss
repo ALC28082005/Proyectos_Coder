@@ -16,10 +16,13 @@
 }
 
 /*----------------------*/
-@mixin mix{
-    background-color: antiquewhite;
+@mixin mix ($fondo){
+    background-color: $fondo;
     margin-top: 0;
 }
 .mix-1{
-    @include mix;
+    @include mix (#4cb04c);
+}
+.mix-2{
+    @include mix(#f1edb9)
 }
