@@ -1,4 +1,4 @@
-
+@import "../globales/colores";
 
  .prueba {
   background-color: map-get($estilos, color);
@@ -10,7 +10,7 @@
 
 
 .prueba2{
-    background-color: map-get($estilos, color);
+  background-color: map-get($estilos, color);
   text-align: map-get($estilos, centro);
   padding: map-get($estilos, 1rem);
   font-size:map-get($estilos, tFuente);
