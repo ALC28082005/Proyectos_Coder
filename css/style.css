@@ -70,7 +70,7 @@ body {
 .basic {
   display: grid;
   box-sizing: border-box;
-  grid-template-rows: 4rem minmax(calc(100vh - 4rem - 200px), max-content) 100px;
+  grid-template-rows: 8rem minmax(calc(100vh - 8rem - 200px), max-content) 100px;
   grid-template-columns: 1fr 4fr;
   grid-template-areas: "header header header header" "main  main  main .    " "footer footer footer footer"; }
 
