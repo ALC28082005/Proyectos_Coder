@@ -2,5 +2,10 @@
 	grid-area: header;
 	display: flex;
 	text-align: center;
+
+	img{
+		@extend %centrado;
+	}
 }
+
 
