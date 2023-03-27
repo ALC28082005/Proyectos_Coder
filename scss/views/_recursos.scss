@@ -1,4 +1,10 @@
-
+.header{
+    .centrar{
+        img{
+            @extend %centrar;
+        }
+    }
+}
     
 
     
