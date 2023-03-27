@@ -17,6 +17,11 @@ body {
   body {
     padding-top: 60px 10px 0; } }
 
+.header .centrar img {
+  width: 100%;
+  height: auto;
+  padding: auto; }
+
 /*Prueba de mixin*/
 .cuadrado-1 {
   background-color: #ac7fff;
@@ -28,7 +33,13 @@ body {
 
 /*----------------------*/
 .mix-1 {
-  background-color: antiquewhite;
+  background-color: #4cb04c;
+  width: 300px;
+  margin-top: 0; }
+
+.mix-2 {
+  background-color: #f1edb9;
+  width: 200px;
   margin-top: 0; }
 
 /* PALETA DE COLORES PARA CARDS2 */
@@ -63,9 +74,10 @@ body {
   grid-template-columns: 1fr 4fr;
   grid-template-areas: "header header header header" "main  main  main .    " "footer footer footer footer"; }
 
-.basic .header {
+.header {
   grid-area: header;
-  display: flex; }
+  display: flex;
+  text-align: center; }
 
 .basic .main {
   grid-area: main;
