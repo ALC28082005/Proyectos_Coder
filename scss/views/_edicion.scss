@@ -1,4 +1,11 @@
 /*PAGINA DE EDICION-seccion cards*/
+.header{
+    img{
+           @extend %centrado;
+        
+    }
+}
+   
   
 .cards {
     min-height: calc(100vh - 60px);
