@@ -1,8 +1,7 @@
 .header{
-    .centrar{
-        img{
-            @extend %centrar;
-        }
+    img{
+           @extend %centrado;
+        
     }
 }
     
