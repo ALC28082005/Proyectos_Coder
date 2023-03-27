@@ -17,6 +17,11 @@ body {
   body {
     padding-top: 60px 10px 0; } }
 
+.header img {
+  width: 100%;
+  height: auto;
+  padding: auto; }
+
 /*Prueba de mixin*/
 .cuadrado-1 {
   background-color: #ac7fff;
