@@ -79,10 +79,26 @@ body {
   grid-area: header;
   display: flex;
   text-align: center; }
+  .header p {
+    margin-top: 5px;
+    padding: 5px; }
 
 .basic .main {
   grid-area: main;
   display: flex; }
+  .basic .main .primary a {
+    background-color: #b5b7ca;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgba(145, 127, 225, 0.4);
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center; }
 
 .footer {
   grid-area: footer;
