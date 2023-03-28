@@ -1,6 +1,34 @@
 .basic .main {
     grid-area: main;
 	display: flex;
-	
-	
+
+    
+        .primary{
+
+            a {
+                background-color: map-get($colors,primary-light);
+                color: map-get($colors, text-dark);
+                border-radius: $radius;
+                box-shadow: $shadow;
+                font-weight: bold;
+                display: block;
+                padding: $padding;
+                margin-top: 5px;
+                margin-bottom: 10px;
+        
+                text: {
+                    decoration: none;
+                    transform: uppercase;
+                    align: center;
+                }
+        
+             }
+    
+        }
+        
+
+
+    
+    
+    
 }
