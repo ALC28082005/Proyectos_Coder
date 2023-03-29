@@ -4,6 +4,9 @@
 
     
         .primary{
+            width: 200px;
+            margin: 0 auto;
+            margin-top: 10px;
 
             a {
                 background-color: map-get($colors,primary-light);
