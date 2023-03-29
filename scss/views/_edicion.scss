@@ -8,10 +8,11 @@
     flex-wrap: wrap;
     padding: 10px;
     box-sizing: border-box;
-    .card {
+       .card {
         background: white;
         max-width: 20%;
         min-width: 150px;
+        border-color: blue;
         padding: 10px;
         margin: 1%;
         display: flex;
@@ -19,7 +20,7 @@
         justify-content: space-between;
         .card-body{
             img{
-                width: 99%;
+                width: 90%;
                 height: 35vh;
                 /*hack imagen no deformada*/
                 object-fit: cover;
