@@ -86,19 +86,23 @@ body {
 .basic .main {
   grid-area: main;
   display: flex; }
-  .basic .main .primary a {
-    background-color: #b5b7ca;
-    color: black;
-    border-radius: 15px;
-    box-shadow: 0 10px 10px rgba(145, 127, 225, 0.4);
-    font-weight: bold;
-    display: block;
-    padding: 15px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center; }
+  .basic .main .primary {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px; }
+    .basic .main .primary a {
+      background-color: #d3d8f9;
+      color: #060b2e;
+      border-radius: 15px;
+      box-shadow: 0 10px 10px rgba(22, 227, 221, 0.4);
+      font-weight: bold;
+      display: block;
+      padding: 15px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-align: center; }
 
 .footer {
   grid-area: footer;
