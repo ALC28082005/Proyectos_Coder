@@ -1,4 +1,29 @@
-  
+  .cardsrecursos{
+    display: flex;
+    justify-content: space-around;
+    .zoom-in-down, .zomm-in {
+        .card{
+        
+            display: flex;
+            flex-direction: column;
+            
+        }
 
+    }
+    
+   
+  }
+  .container2 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(400px, 600px));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+  }
+  
+  .item {
+    background: rgb(196, 37, 37);
+    color: white;
+    padding: 1em;
+  }
     
 
