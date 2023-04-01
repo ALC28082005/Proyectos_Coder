@@ -1,6 +1,7 @@
 .main{
     .container{
         .row{
+            min-height: calc(100vh - 60px);
             .col{
                 .card{
                     display: flex;
