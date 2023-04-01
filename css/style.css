@@ -73,7 +73,9 @@ body {
   box-sizing: border-box;
   grid-template-rows: 8rem minmax(calc(100vh - 8rem - 200px), max-content) 100px;
   grid-template-columns: 1fr 4fr;
-  grid-template-areas: "header header header header" "main  main  main .    " "footer footer footer footer"; }
+  grid-template-areas: "header header header header"
+ "main  main  main .    "
+ "footer footer footer footer"; }
 
 .header {
   grid-area: header;
@@ -151,7 +153,7 @@ body {
   box-sizing: border-box; }
   .cards .card {
     background: white;
-    max-width: 20%;
+    /*max-width: 20%;*/
     min-width: 150px;
     padding: 10px;
     margin: 1%;
