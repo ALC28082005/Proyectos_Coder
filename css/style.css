@@ -34,7 +34,7 @@ body {
 
 /*----------------------*/
 .mix-1 {
-  background-color: #4cb04c;
+  background-color: #89bf47;
   width: 300px;
   margin-top: 0; }
 
@@ -43,7 +43,6 @@ body {
   width: 200px;
   margin-top: 0; }
 
-/* PALETA DE COLORES PARA CARDS2 */
 /*-----Estilos titulos boostrap----*/
 .h1 {
   text-align: center; }
@@ -66,7 +65,8 @@ body {
 .web {
   text-align: center; }
 
-.estilo-x { font-size: calc(1em + 1vw); }
+.estilo-x {
+  font-size: calc(1em + 1vw); }
 
 /*layout*/
 /*definimos la distribución de filas, columnas, nombre de las áreas */
@@ -75,9 +75,7 @@ body {
   box-sizing: border-box;
   grid-template-rows: 8rem minmax(calc(100vh - 8rem - 200px), max-content) 100px;
   grid-template-columns: 1fr 4fr;
-  grid-template-areas: "header header header header"
- "main  main  main .    "
- "footer footer footer footer"; }
+  grid-template-areas: "header header header header" "main  main  main .    " "footer footer footer footer"; }
 
 .header {
   grid-area: header;
@@ -144,6 +142,13 @@ body {
 
 /* UTILITIES */
 /*Views*/
+.main .container .row .col .card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+  box-sizing: border-box; }
+
 /*PAGINA DE EDICION-seccion cards*/
 .cards {
   min-height: calc(100vh - 60px);
@@ -249,5 +254,5 @@ body {
   .enviar :hover {
     background: #759ce0; }
   .enviar input {
-    background-color: #dce0e4;
+    background-color: #b9bdc1;
     margin-top: 10px; }
