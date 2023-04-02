@@ -16,14 +16,15 @@
 }
 
 /*----------------------*/
-@mixin mix ($fondo, $ancho){
+@mixin mix ($fondo, $ancho, $alto){
     background-color: $fondo;
     width: $ancho;
+    height: $alto;
     margin-top: 0;
 }
 .mix-1{
-    @include mix (#89bf47, 300px);
+    @include mix (#89bf47, 300px, 4rem);
 }
 .mix-2{
-    @include mix(#f1edb9, 200px)
+    @include mix(#f1edb9, 200px, 2rem)
 }
