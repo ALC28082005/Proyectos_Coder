@@ -66,6 +66,8 @@ body {
 .web {
   text-align: center; }
 
+.estilo-x { font-size: calc(1em + 1vw); line-height: 1em; padding: 1em; margin: 1em; }
+
 /*layout*/
 /*definimos la distribución de filas, columnas, nombre de las áreas */
 .basic {
