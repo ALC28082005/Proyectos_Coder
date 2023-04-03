@@ -2,11 +2,11 @@
   
 .cards {
    min-height: calc(100vh - 60px);
-   /* background: rgb(12, 167, 167);*/
+   background: rgb(12, 167, 167);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 10px;
+    /*padding: 10px;*/
     box-sizing: border-box;
        .card {
         background: white;
@@ -30,7 +30,7 @@
 
             }
             p {
-                text-align: left;
+                text-align: center;
                 
             }
         }
