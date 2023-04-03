@@ -154,11 +154,11 @@ body {
 /*PAGINA DE EDICION-seccion cards*/
 .cards {
   min-height: calc(100vh - 60px);
-  /* background: rgb(12, 167, 167);*/
+  background: #0ca7a7;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 10px;
+  /*padding: 10px;*/
   box-sizing: border-box; }
   .cards .card {
     background: white;
@@ -178,7 +178,7 @@ body {
       color: #0f1010;
       text-align: center; }
     .cards .card .card-body p {
-      text-align: left; }
+      text-align: center; }
     .cards .card .card-action {
       display: flex;
       justify-content: flex-end; }
