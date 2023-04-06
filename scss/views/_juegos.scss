@@ -13,15 +13,15 @@
   .juegosdos  {
     
     border: solid 2px #dddddd;
-      border-radius: 5px;
-       border-spacing: 10px;
+    border-radius: 5px;
+    border-spacing: 10px;
     display:flex;
     background-color: antiquewhite;
     padding:4px;
 
     .edit {
-        border-spacing: 10px;
-         display:flex;
+      border-spacing: 10px;
+      display:flex;
       padding:4px;
       box-sizing: border-box;
       max-width: 25%;
@@ -46,5 +46,10 @@
   
   }
   
-  
+  @media (max-width: 768px){
+    .juegosdos{
+      flex-direction: column;
+      align-items: center;
+    }
+  }
  
