@@ -221,7 +221,8 @@ body {
     flex-direction: row;
     align-items: center; }
     .juegosdos .edit img {
-      width: 100%; }
+      width: 100%;
+      object-fit: cover; }
   .juegosdos .editdos {
     border-spacing: 10px;
     display: flex;
