@@ -30,6 +30,8 @@
       
       img {
         width: 100%;
+        /*hack imagen no deformada*/
+        object-fit: cover;
         
       }
     }
@@ -45,12 +47,4 @@
   }
   
   
-  @media (min-width: 640px){
-    .edit{
-        flex-direction: column;
-        align-items: center;
-        img{
-          flex-direction: column;
-        }
- }
-  }
+ 
