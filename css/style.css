@@ -222,17 +222,13 @@ body {
     align-items: center; }
     .juegosdos .edit img {
       width: 100%;
+      /*hack imagen no deformada*/
       object-fit: cover; }
   .juegosdos .editdos {
     border-spacing: 10px;
     display: flex;
     padding-left: 10px;
     flex-direction: column; }
-
-@media (min-width: 640px) {
-  .edit {
-    flex-direction: column;
-    align-items: center; } }
 
 /*CONTACTO*/
 .main .container-fluid .contact_form {
